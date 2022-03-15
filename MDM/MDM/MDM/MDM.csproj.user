@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\192.168.0.254\Software\MDM\|\\192.168.0.254\Maintennance\Automation\Other\MDM\|\\192.168.0.254\Maintennance\|\\192.168.0.254\Maintennance\Automation\MDM\|\\192.168.0.254\Video&amp;Picture\Đo tự động\MDM\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory>\\192.168.0.254\Maintennance\Automation\Other\MDM\|\\192.168.0.254\Video&amp;Picture\Đo tự động\MDM\</UpdateUrlHistory>
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+    <ProjectView>ProjectFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+  </PropertyGroup>
+</Project>

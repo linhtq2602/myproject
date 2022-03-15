@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="MDM.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="SQL_Test_1.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="SQL_Test_1.UserConfig" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="MDM.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <MDM.Properties.Settings>
+            <setting name="ScreenResH" serializeAs="String">
+                <value>900</value>
+            </setting>
+            <setting name="ScreenResW" serializeAs="String">
+                <value>1600</value>
+            </setting>
+            <setting name="Factory" serializeAs="String">
+                <value>All</value>
+            </setting>
+            <setting name="DefaultExportPath" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value />
+            </setting>
+        </MDM.Properties.Settings>
+        <SQL_Test_1.Properties.Settings>
+            <setting name="ScreenResH" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="ScreenResW" serializeAs="String">
+                <value>800</value>
+            </setting>
+            <setting name="MainColor" serializeAs="String">
+                <value>Color.White</value>
+            </setting>
+            <setting name="SqlConnectionString" serializeAs="String">
+                <value>User-PC\SQLEXPRESS;Initial Catalog=AMS;User ID=AMS_User; Password=sqltest</value>
+            </setting>
+            <setting name="DefaultExportPath" serializeAs="String">
+                <value />
+            </setting>
+        </SQL_Test_1.Properties.Settings>
+        <SQL_Test_1.UserConfig>
+            <setting name="ScreenRes" serializeAs="String">
+                <value />
+            </setting>
+        </SQL_Test_1.UserConfig>
+    </userSettings>
+    <applicationSettings>
+        <MDM.Properties.Settings>
+            <setting name="SqlConnectionString" serializeAs="String">
+                <value>Data Source=192.168.0.243;Database=AMS;User ID=auto; Password=12qw!@QW;</value>
+            </setting>
+            <setting name="DefaultIllustrationPath" serializeAs="String">
+                <value>\\192.168.0.254\Software\MDM\Instruction files\</value>
+            </setting>
+        </MDM.Properties.Settings>
+    </applicationSettings>
+</configuration>

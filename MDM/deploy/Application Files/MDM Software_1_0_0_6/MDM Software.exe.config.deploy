@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="SQL_Test_1.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+            <section name="SQL_Test_1.UserConfig" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <SQL_Test_1.Properties.Settings>
+            <setting name="ScreenResH" serializeAs="String">
+                <value>600</value>
+            </setting>
+            <setting name="ScreenResW" serializeAs="String">
+                <value>800</value>
+            </setting>
+            <setting name="MainColor" serializeAs="String">
+                <value>Color.White</value>
+            </setting>
+            <setting name="SqlConnectionString" serializeAs="String">
+                <value>User-PC\SQLEXPRESS;Initial Catalog=AMS;User ID=AMS_User; Password=sqltest</value>
+            </setting>
+            <setting name="DefaultExportPath" serializeAs="String">
+                <value />
+            </setting>
+        </SQL_Test_1.Properties.Settings>
+        <SQL_Test_1.UserConfig>
+            <setting name="ScreenRes" serializeAs="String">
+                <value />
+            </setting>
+        </SQL_Test_1.UserConfig>
+    </userSettings>
+</configuration>
